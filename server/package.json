@@ -1,0 +1,15 @@
+{
+  "name": "pokehost",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "serve": "nodemon"
+  },
+  "dependencies": {
+    "shortid": "^2.2.15",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
